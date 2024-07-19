@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   max-width: 700px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 #img {
@@ -37,7 +37,8 @@
 }
 
 .bell {
-  box-sizing: border-box;
+  box-sizing: none;
+  outline: none;
   cursor: pointer;
   opacity: 0;
 }
