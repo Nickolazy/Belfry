@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   const buttonsData = [
-    { className: 'a', audioId: '5-kg', src: '38-kg.mp3', img: '5-bell.jpg', key: 'KeyE'},
-    { className: 'b', audioId: '9-kg', src: '16-kg.mp3', img: '4-bell.jpg', key: 'KeyR'},
-    { className: 'c', audioId: '12-kg', src: '12-kg.mp3', img: '3-bell.jpg', key: 'KeyT'},
-    { className: 'd', audioId: '16-kg', src: '9-kg.mp3', img: '2-bell.jpg', key: 'KeyY'},
-    { className: 'e', audioId: '38-kg', src: '5-kg.mp3', img: '1-bell.jpg', key: 'KeyU'},
-    { className: 'f', audioId: '60-kg', src: '60-kg.mp3', img: '6-bell.jpg', key: 'KeyW'},
-    { className: 'g', audioId: '160-kg', src: '160-kg.mp3', img: '7-bell.jpg', key: 'KeyQ'}
+    { className: 'a', audioId: '38-kg', src: '38-kg.mp3', img: '5-bell.jpg', key: 'KeyW'},
+    { className: 'b', audioId: '16-kg', src: '16-kg.mp3', img: '4-bell.jpg', key: 'KeyE'},
+    { className: 'c', audioId: '12-kg', src: '12-kg.mp3', img: '3-bell.jpg', key: 'KeyI'},
+    { className: 'd', audioId: '9-kg', src: '9-kg.mp3', img: '2-bell.jpg', key: 'KeyO'},
+    { className: 'e', audioId: '5-kg', src: '5-kg.mp3', img: '1-bell.jpg', key: 'KeyP'},
+    { className: 'f', audioId: '60-kg', src: '60-kg.mp3', img: '6-bell.jpg', key: 'KeyQ'},
+    { className: 'g', audioId: '160-kg', src: '160-kg.mp3', img: '7-bell.jpg', key: 'KeyN'}
   ];
 
   const wayToMp3 = 'src/assets/mp3/';
