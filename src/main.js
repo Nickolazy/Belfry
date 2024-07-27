@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function changeText() {
     const selectedFrequency = document.querySelector('input[name="frequency"]:checked').value;
     const text = document.querySelector('.metronome__text');
-    if(selectedFrequency === '44') {
+    if(selectedFrequency === '43') {
       text.textContent = 'Ростовские звоны';
     } else if(selectedFrequency === '52') {
       text.textContent = 'Троице-Сергиева Лавра';
